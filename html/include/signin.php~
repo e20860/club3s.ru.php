@@ -1,0 +1,37 @@
+<?php
+   // Подключение файла конфигурации перед выполнением кода PHP для контроля сообщений об ошибках
+   require('./include/config.inc.php');
+   // Подключаем базу данных 
+    require(MYSQL);
+   // Включение файла заголовка
+   $page_title = 'Вход в систему';
+   include('./include/header.html');
+   
+   // Массив, предназначенный для хранения сообщений об ошибках
+   $login_errors = array();
+   
+   // Подключение навигационной панели
+   include('./include/navigation.php');
+
+   // Обработка передачи данных формы в запросе POST
+   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+      
+      
+   } //if ($_SERVER['REQUEST_METHOD'] === 'POST')
+?>
+   <main role="main" class="container">
+    <form class="form-signin">
+      <img class="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Представьтесь</h1>
+      <label for="inputEmail" class="sr-only">Ваш Email</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Введите Email" required autofocus>
+      <label for="inputPassword" class="sr-only">Ваш пароль</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Ввелите пароль" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Запомнить меня
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+    </form>
+   </main>

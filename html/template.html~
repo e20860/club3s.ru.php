@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Eugenie" >
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Клуб офицеров *Три звезды*</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/common.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <img class="img-logo" src="img/3star3.png" alt="logo">&nbsp&nbsp
+      <a class="navbar-brand" href="#">Клуб *Три*Звезды*</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Для всех</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Устав клуба</a>
+              <a class="dropdown-item" href="#">Кодекс чести офицера</a>
+              <a class="dropdown-item" href="#">Блог клуба</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle disabled" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Для членов клуба</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown02">
+              <a class="dropdown-item" href="#">Действие</a>
+              <a class="dropdown-item" href="#">Другое действие</a>
+              <a class="dropdown-item" href="#">Что-нибудь ещё</a>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="nav-link" href="#">Гостевой сеанс <span class="sr-only">(current)</span></a>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Войти</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="home-page">
+         <h1>Клуб полковников приветствует Вас!</h1>
+         <br>
+         <img  src="img/colonel.png" class="img-fluid rounded float-right img-colonel" alt="Полковник">
+         <p class="lead">&nbsp&nbsp Клуб - неправительственная негуманитарная, некоммерческая организация, объединяющая офицеров запаса, проходивших действительную военную службу в Вооружённых Силах.</p>
+         <br>
+         <p>&nbsp&nbsp Свою деятельность Клуб ведёт в виде неформального общения его членов, а также путём ежегодных общих собраний, проводимых в согласованном месте накануне Дня защитника Отечества (23 февраля).</p>
+         <br>
+         <p>&nbsp&nbsp Клуб не ведёт политическую деятельность, однако отслеживает геополитические тенденции в мировой политике а также деятельности органов государственной власти по строительству Вооружённых Сил, реализации внутренней и социальной политики и обсуждает их в ходе выступления участников на общих собраниях клуба.</p>
+         <br>
+         <p>&nbsp&nbsp Клуб не является открытой организацией. Вступление в члены Клуба возможно только по рекомендации членов правления на общем собрании Клуба.</p>
+      </div>
+
+    </main><!-- /.container -->
+    
+    <!-- 
+     =======================================================================================
+     FOOTER    
+     -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy *Клуб*Три*Звезды* 2017, 2018... Разработка Е.Славко</span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
