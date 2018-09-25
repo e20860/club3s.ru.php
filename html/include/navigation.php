@@ -30,12 +30,12 @@
             <div class="dropdown-menu" aria-labelledby="dropdown02">
               <a class="dropdown-item" href="cma.php">Архив заседаний</a>
               <a class="dropdown-item" href="#">Обсуждаемые вопросы</a>
-              <a class="dropdown-item" href="#">Курилка клуба</a>
+              <a class="dropdown-item" href="#">Комната дежурного</a>
             </div>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="#">Контакты</a>
+            <a class="nav-link" href="contacts.php">Контакты</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" method="POST">
