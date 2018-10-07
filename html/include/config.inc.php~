@@ -29,8 +29,9 @@ DEFINE('CONTACT_EMAIL', 'sey@club3s.ru');
 // Идентификация местоположения файлов и URL-ссылки на сайт
 define ('BASE_URI', '/home/eugenie/www/php.st/club3s.ru/');
 define ('BASE_URL', 'localhost/');
-define ('DOCS_DIR', BASE_URI . 'docs/'); // добавлено в главе 5
+define ('DOCS_DIR', BASE_URI . 'docs/'); 
 define ('MYSQL', BASE_URI . 'mysql.inc.php');
+
 $page_title  = 'Клуб *ТРИ*ЗВЕЗДЫ*';
 // ************ КОНСТАНТЫ *********** //
 // ********************************** //

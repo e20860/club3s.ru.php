@@ -30,7 +30,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdown02">
               <a class="dropdown-item" href="cma.php">Архив заседаний</a>
               <a class="dropdown-item" href="#">Обсуждаемые вопросы</a>
-              <a class="dropdown-item" href="#">Комната дежурного</a>
+              <a class="dropdown-item" href="dutyroom.php">Комната дежурного</a>
             </div>
           </li>
           
