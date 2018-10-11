@@ -7,7 +7,7 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="index.php">Главная <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
@@ -15,7 +15,6 @@
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="statut.php">Устав клуба</a>
               <a class="dropdown-item" href="codex.php">Кодекс чести офицера</a>
-              <a class="dropdown-item" href="blog.php">Блог клуба</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -29,7 +28,7 @@
              ?>
             <div class="dropdown-menu" aria-labelledby="dropdown02">
               <a class="dropdown-item" href="cma.php">Архив заседаний</a>
-              <a class="dropdown-item" href="#">Обсуждаемые вопросы</a>
+              <a class="dropdown-item" href="forum.php">Обсуждаемые вопросы</a>
               <a class="dropdown-item" href="dutyroom.php">Комната дежурного</a>
             </div>
           </li>

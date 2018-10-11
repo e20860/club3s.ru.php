@@ -25,7 +25,7 @@
             <a class="text-muted" href="#">Подписаться</a>
           </div>
           <div class="col-6 text-center">
-            <a class="h1 blog-header-logo text-dark" href="#">Блог клуба *Три*Звезды*</a>
+            <a class="h1 " href="#">Блог клуба *Три*Звезды*</a>
           </div>
           <div class="col-3 d-flex justify-content-end align-items-center">
             <a class="text-muted" href="#">

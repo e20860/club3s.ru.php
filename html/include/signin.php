@@ -31,7 +31,7 @@
       if (empty($login_errors)) { // OK для обработки!
       
       	// Запрос базы данных
-      	$q = "SELECT id, username, type, pass, IF(date_expires >= NOW(), true, false) AS expired FROM users WHERE email='$e'";		
+      	$q = "SELECT id, username, type, pass, photo_path, IF(date_expires >= NOW(), true, false) AS expired FROM users WHERE email='$e'";		
       	$r = mysqli_query($dbc, $q);
       
       	if (mysqli_num_rows($r) === 1) { // было выполнено сравнение
@@ -49,6 +49,7 @@
       			// Сохранение данных в сеансе
       			$_SESSION['user_id'] = $row['id'];
       			$_SESSION['username'] = $row['username'];
+      			$_SESSION['userpic'] = $row['photo_path'];
       			// Показывает, что срок действия учетной записи пользователя не истек
       			if ($row['expired'] === 1) $_SESSION['user_not_expired'] = true;
       		} else { // корректный адрес электронной почты, неверный пароль

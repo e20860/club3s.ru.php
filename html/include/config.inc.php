@@ -31,6 +31,7 @@ define ('BASE_URI', '/home/eugenie/www/php.st/club3s.ru/');
 define ('BASE_URL', 'localhost/');
 define ('DOCS_DIR', BASE_URI . 'docs/'); 
 define ('MYSQL', BASE_URI . 'mysql.inc.php');
+define ('PICPATH', BASE_URI . 'html/img/');
 
 $page_title  = 'Клуб *ТРИ*ЗВЕЗДЫ*';
 // ************ КОНСТАНТЫ *********** //
